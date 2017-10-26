@@ -21,7 +21,7 @@ namespace DyApp.Infrastructure.Utils
             str = str.Substring(0, 1).ToUpper()+str.Substring(1);
 
             Assembly weMessage = Assembly.Load("DYApp.WeMessage");
-            var msg = (WeMsg)weMessage.CreateInstance(string.Format("{0}.WeMsg{1}", WeMsgAssembly, str));
+            var msg = (WeMsg)weMessage.CreateInstance(string.Format("{0}.ReqMsg{1}", WeMsgAssembly, str));
             string typeName = msg.GetType().Name;
 
             foreach(PropertyInfo property in msg.GetType().GetProperties())
@@ -33,15 +33,5 @@ namespace DyApp.Infrastructure.Utils
             return msg;
         }
 
-        public static string ToString(WeMsg msg)
-        {
-            XElement xml = new XElement("xml", toXmls(msg));
-            return xml.ToString();
-        }
-
-        private static IEnumerable<XElement> toXmls(WeMsg msg)
-        {
-            return msg.GetType().GetProperties().Select(p => new XElement(p.Name, p.GetValue(msg)));
-        }
     }
 }

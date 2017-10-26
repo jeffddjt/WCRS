@@ -13,10 +13,12 @@ namespace WeChat.Controllers
 {
     public class WeChatController : Controller
     {
+        private MessageService messageService;
 
         // GET: WeChat
         public WeChatController()
         {
+            this.messageService = new MessageService();
         }
  
         [HttpGet]
@@ -45,8 +47,10 @@ namespace WeChat.Controllers
         private string processWechat(string xmlStr)
         {
             WeMsg msg = XMLHelper.Parse(xmlStr);
-            string result = XMLHelper.ToString((new MessageService()).ProcessMessage(msg));
-            return result;
+            if (msg.MsgType != "event")
+                return this.messageService.ProcessMessage(msg);
+            else
+                return this.messageService.ProcessEvent((ReqMsgEvent)msg);
         }
     }
 }

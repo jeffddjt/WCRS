@@ -44,6 +44,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\DyApp.Infrastructure\DyApp.Infrastructure.csproj">
+      <Project>{C9F60489-5981-4C2D-9BB8-9F2C0FA8C6EF}</Project>
+      <Name>DyApp.Infrastructure</Name>
+    </ProjectReference>
     <ProjectReference Include="..\DYApp.WeMessage\DYApp.WeMessage.csproj">
       <Project>{73B6C322-E38E-47D1-B310-384647C3520F}</Project>
       <Name>DYApp.WeMessage</Name>

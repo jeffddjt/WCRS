@@ -42,7 +42,9 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RepMsg.cs" />
+    <Compile Include="RepMsgText.cs" />
     <Compile Include="ReqMsg.cs" />
+    <Compile Include="ReqMsgEvent.cs" />
     <Compile Include="ReqMsgLocation.cs" />
     <Compile Include="ReqMsgShortvideo.cs" />
     <Compile Include="WeMsg.cs" />
