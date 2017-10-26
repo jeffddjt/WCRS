@@ -3,3 +3,14 @@
 ################################################################################
 
 /DyApp.Infrastructure/bin
+/DyApp.Infrastructure/obj/Debug
+/DyApp.Infrastructure/obj/Release
+/DYApp.WechatService/bin/Debug
+/DYApp.WechatService/obj
+/DYApp.WeMessage/bin
+/DYApp.WeMessage/obj
+/packages
+/WeChat/bin
+/WeChat/obj
+/WeChat.WebApi/bin
+/WeChat.WebApi/obj/Debug

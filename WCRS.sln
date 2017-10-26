@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeChat", "WeChat\WeChat.csproj", "{2CE6B69C-F6AF-46A0-B735-2DC21DE97C86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DyApp.Infrastructure", "DyApp.Infrastructure\DyApp.Infrastructure.csproj", "{C9F60489-5981-4C2D-9BB8-9F2C0FA8C6EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DYApp.WeMessage", "DYApp.WeMessage\DYApp.WeMessage.csproj", "{73B6C322-E38E-47D1-B310-384647C3520F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DYApp.WechatService", "DYApp.WechatService\DYApp.WechatService.csproj", "{952A91A4-3743-4BAC-94D3-AB9FEA97FEBF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2CE6B69C-F6AF-46A0-B735-2DC21DE97C86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CE6B69C-F6AF-46A0-B735-2DC21DE97C86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CE6B69C-F6AF-46A0-B735-2DC21DE97C86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CE6B69C-F6AF-46A0-B735-2DC21DE97C86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9F60489-5981-4C2D-9BB8-9F2C0FA8C6EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9F60489-5981-4C2D-9BB8-9F2C0FA8C6EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9F60489-5981-4C2D-9BB8-9F2C0FA8C6EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9F60489-5981-4C2D-9BB8-9F2C0FA8C6EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73B6C322-E38E-47D1-B310-384647C3520F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73B6C322-E38E-47D1-B310-384647C3520F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73B6C322-E38E-47D1-B310-384647C3520F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73B6C322-E38E-47D1-B310-384647C3520F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{952A91A4-3743-4BAC-94D3-AB9FEA97FEBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{952A91A4-3743-4BAC-94D3-AB9FEA97FEBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{952A91A4-3743-4BAC-94D3-AB9FEA97FEBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{952A91A4-3743-4BAC-94D3-AB9FEA97FEBF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
